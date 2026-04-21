@@ -1,3 +1,5 @@
+import { toggleLanguage } from './i18n.js';
+
 export function initNavbar() {
     const mobileMenuBtn       = document.getElementById('mobileMenuBtn');
     const closeMobileMenuBtn  = document.getElementById('closeMobileMenuBtn');
@@ -22,6 +24,11 @@ export function initNavbar() {
     if (mobileMenuBtn)       mobileMenuBtn.addEventListener('click', openDrawer);
     if (closeMobileMenuBtn)  closeMobileMenuBtn.addEventListener('click', closeDrawer);
     if (mobileDrawerOverlay) mobileDrawerOverlay.addEventListener('click', closeDrawer);
+
+    const langSwitcher = document.getElementById('langSwitcher');
+    langSwitcher?.addEventListener('click', () => {
+        toggleLanguage();
+    });
 
     mobileNavLinks.forEach(link => link.addEventListener('click', closeDrawer));
 }

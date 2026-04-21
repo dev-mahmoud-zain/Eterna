@@ -3,7 +3,7 @@ import { renderTemplates }                          from './render.js';
 import { handleScroll, handleMouseMove,
          setupScrollAnimations, dismissLoader }     from './animations.js';
 import { initNavbar }                               from './navbar.js';
-
+import { initLanguage }                             from './i18n.js';
 const SECTIONS = [
     './sections/loader.html',
     './sections/navbar.html',
@@ -20,6 +20,7 @@ async function loadSections() {
         const html = await res.text();
         app.insertAdjacentHTML('beforeend', html);
     }
+    initLanguage(); // Initial language setup and translation of injected sections
 }
 
 function init() {
@@ -48,6 +49,11 @@ function init() {
 
     initNavbar();
     setupScrollAnimations();
+
+    // Listen for language toggles to re-render dynamic content
+    window.addEventListener('languageChanged', () => {
+        renderTemplates(templates); // re-render cards with new language
+    });
 }
 
 loadSections()
