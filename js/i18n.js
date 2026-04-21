@@ -27,11 +27,11 @@ export const translations = {
         "feats.title": "The Eterna Experience",
         "feats.desc": "Why modern couples choose our bespoke digital invitations.",
         "feats.artisan": "Artisan Crafted",
-        "feats.artisanDesc": "Every pixel is meticulously arranged. From typographic pairings to seamless animations, our designs evoke genuine emotion and sophisticated charm.",
+        "feats.artisanDesc": "Every pixel is meticulously arranged by expert web developers. By utilizing modern techniques like glassmorphism and fluid animations, we deliver an immersive aesthetic that standard paper invitations—and basic website builders—simply cannot match.",
         "feats.instant": "Instant Elegance",
-        "feats.instantDesc": "Share your love story instantly. A digital invitation ensures your guests experience your joy the moment you press send, without sacrificing luxury.",
-        "feats.effortless": "Effortless Personalization",
-        "feats.effortlessDesc": "Your story is unique, and your invitation should be too. We seamlessly weave your details into our stunning layouts via a simple WhatsApp ordering process.",
+        "feats.instantDesc": "Share your love story globally, instantly. A bespoke digital invitation ensures your friends and family experience your joy the moment you press send—eliminating postage delays, lost mail, and complex RSVP cycles without sacrificing premium luxury.",
+        "feats.effortless": "Bespoke Concierge Personalization",
+        "feats.effortlessDesc": "Consider us your digital concierge. Rather than wrestling with confusing DIY editors, simply explore our catalog and direct message us on WhatsApp. We leverage professional web development expertise to seamlessly weave your details into our stunning layouts.",
 
         // Footer
         "footer.tagline": "Where forever begins beautifully.",
@@ -74,11 +74,11 @@ export const translations = {
         "feats.title": "تجربة إيترنا",
         "feats.desc": "لماذا يختار العرسان دعواتنا الرقمية الفاخرة.",
         "feats.artisan": "نخبة التصاميم المتقنة",
-        "feats.artisanDesc": "كل تفصيلة صُممت بعناية فائقة. من تناسق الخطوط إلى الحركات البرمجية الانسيابية، لتخرج تصاميمنا بطابع ينبض بالمشاعر الساحرة والأناقة الخالصة.",
+        "feats.artisanDesc": "كل بيكسل صُمم بعناية فائقة بأيدي مطوري ويب محترفين. باستخدام أحدث التقنيات مثل الحركات الانسيابية، نقدم لكم تجربة بصرية ساحرة تتفوق بمراحل على الدعوات الورقية التقليدية وأدوات التصميم الجاهزة.",
         "feats.instant": "أناقة فورية",
-        "feats.instantDesc": "شاركوا قصة حبكم بلمحة بصر. دعواتنا الرقمية تضمن لضيوفكم مشاركة فرحتكم بمجرد إرسالها، محتفظين بأرقى معايير الفخامة.",
-        "feats.effortless": "تخصيص بكل سهولة",
-        "feats.effortlessDesc": "قصتكم فريدة، وكذلك يجب أن تكون دعوتكم. ننسج تفاصيلكم بسلاسة في قوالبنا المذهلة عبر خطوات طلب بسيطة من خلال الواتساب.",
+        "feats.instantDesc": "شاركوا قصة حبكم مع العالم بلمحة بصر. دعواتنا الرقمية تضمن لضيوفكم مشاركة فرحتكم بمجرد إرسال الرابط—مما يغنيكم عن تأخيرات البريد ومتاعب تتبع الردود، مع احتفاظكم بأرقى معايير الفخامة.",
+        "feats.effortless": "تخصيص احترافي بكل سهولة",
+        "feats.effortlessDesc": "اعتبرونا مساعدكم الشخصي لتصميم دعوتكم. بدلاً من إضاعة الوقت في أدوات التصميم المعقدة وتعديل القوالب بأنفسكم، تصفحوا تشكيلتنا واطلبوا مباشرة عبر الواتساب. نحن نوظف خبراتنا الاحترافية لنسج تفاصيلكم بسلاسة داخل قوالبنا المذهلة.",
 
         // Footer
         "footer.tagline": "حيث تبدأ الأبدية بكل جمال.",

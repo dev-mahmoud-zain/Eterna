@@ -1,0 +1,164 @@
+/* ==========================================================================
+   Hero Section (Immersive & Parallax)
+   ========================================================================== */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    padding-top: 5rem;
+    /* Navbar offset */
+}
+
+.hero-bg-image {
+    position: absolute;
+    inset: 0;
+    /* Soft, elegant image background */
+    background: url('../../assets/images/Eterna-dark.png') center/cover no-repeat;
+    opacity: 0.3;
+    z-index: -2;
+
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, var(--clr-background) 0%, transparent 40%, var(--clr-background) 100%);
+    z-index: -1;
+}
+
+/* Abstract Floating Shapes */
+.hero-glow {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.4;
+    z-index: -1;
+    animation: float-slow 15s ease-in-out infinite alternate;
+}
+
+.shape-1 {
+    width: 40vw;
+    height: 40vw;
+    background: #EED7C5;
+    /* Soft Peach/Gold */
+    top: -10%;
+    left: -10%;
+}
+
+.shape-2 {
+    width: 30vw;
+    height: 30vw;
+    background: #E8E5E1;
+    /* Soft Gray */
+    bottom: 10%;
+    right: -5%;
+    animation-delay: -5s;
+}
+
+.shape-3 {
+    width: 25vw;
+    height: 25vw;
+    background: #F3EAE8;
+    /* Soft Blush */
+    top: 30%;
+    left: 40%;
+    animation-delay: -10s;
+}
+
+@keyframes float-slow {
+    0% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    50% {
+        transform: translate(5%, 5%) scale(1.05);
+    }
+
+    100% {
+        transform: translate(-5%, -5%) scale(0.95);
+    }
+}
+
+.hero-content {
+    text-align: center;
+    max-width: 900px;
+    z-index: 1;
+    padding: 0 1.5rem;
+}
+
+.hero-badge {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid var(--clr-accent-gold);
+    border-radius: var(--radius-pill);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--clr-text-main);
+    margin-bottom: 2rem;
+    backdrop-filter: blur(10px);
+}
+
+.hero h1 {
+    font-size: clamp(3rem, 7vw, 6rem);
+    margin-bottom: 1.5rem;
+    color: var(--clr-text-main);
+}
+
+.hero p {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    color: var(--clr-text-muted);
+    max-width: 600px;
+    margin: 0 auto 3rem;
+    line-height: 1.8;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cta-button {
+    padding: 1rem 2.5rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border-radius: var(--radius-pill);
+    transition: var(--transition-smooth);
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-button.primary {
+    background: var(--clr-text-main);
+    color: var(--clr-surface);
+    border: 1px solid var(--clr-text-main);
+}
+
+.cta-button.primary:hover {
+    background: transparent;
+    color: var(--clr-text-main);
+    transform: translateY(-3px);
+}
+
+.cta-button.secondary {
+    background: transparent;
+    color: var(--clr-text-main);
+    border: 1px solid var(--clr-border);
+}
+
+.cta-button.secondary:hover {
+    border-color: var(--clr-text-main);
+    transform: translateY(-3px);
+}
+
+
+
+

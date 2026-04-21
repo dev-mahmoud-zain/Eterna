@@ -1,0 +1,80 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media (max-width: 992px) {
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1.2rem;
+    }
+
+    .catalog-section,
+    .features-section {
+        padding: 5rem 0;
+    }
+
+    footer {
+        padding: 4rem 0 2rem;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        display: block;
+    }
+
+    .hero-content {
+        margin-top: 2rem;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .search-filter-glass {
+        flex-direction: column;
+        padding: 1.5rem;
+        gap: 1.5rem;
+        border-radius: var(--radius-md);
+    }
+
+    .template-counter-modern {
+        border-left: none;
+        border-top: 1px solid var(--clr-border);
+        padding-left: 0;
+        padding-top: 1rem;
+        margin-left: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .feature-block,
+    .feature-block.reverse {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 3rem;
+    }
+
+    .social-circles {
+        justify-content: center;
+    }
+
+}
+

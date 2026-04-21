@@ -1,0 +1,45 @@
+/* ==========================================================================
+   Eterna Premium Catalog Styles
+   ========================================================================== */
+
+:root {
+    /* Sophisticated Color Palette */
+    --clr-background: #FAF9F7;
+    /* Pearl/Off-white */
+    --clr-surface: #FFFFFF;
+    --clr-surface-glass: rgba(255, 255, 255, 0.7);
+    --clr-surface-glass-dark: rgba(255, 255, 255, 0.4);
+
+    --clr-text-main: #2A2A2A;
+    /* Deep Charcoal */
+    --clr-text-muted: #6B6B6B;
+    --clr-text-light: #999999;
+
+    --clr-accent-gold: #CBA171;
+    /* Champagne Gold */
+    --clr-accent-gold-light: #E6D0B3;
+    --clr-accent-gold-dark: #A67E51;
+
+    --clr-border: rgba(42, 42, 42, 0.08);
+    --clr-glass-border: rgba(255, 255, 255, 0.5);
+
+    /* Typography */
+    --font-heading: 'Cormorant Garamond', serif;
+    --font-body: 'Montserrat', sans-serif;
+
+    /* Shadow & Depth - Extremely Soft */
+    --shadow-float: 0 20px 40px rgba(0, 0, 0, 0.04);
+    --shadow-glass: 0 8px 32px rgba(31, 38, 135, 0.03);
+    --shadow-hover: 0 30px 60px rgba(203, 161, 113, 0.12);
+
+    /* Radii */
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+    --radius-pill: 100px;
+
+    /* Transitions */
+    --transition-smooth: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    --transition-snappy: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
